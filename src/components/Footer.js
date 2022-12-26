@@ -9,16 +9,16 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="icons-container">
-                <a href="https://github.com/sohamdata" target="_blank">
+                <a href="https://github.com/sohamdata" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} />
                 </a>
-                <a href="https://twitter.com/elonmusk" target="_blank">
+                <a href="https://twitter.com/elonmusk" target="_blank" rel="noopener noreferrer">
                     <img src={twitterLogo} />
                 </a>
-                <a href="https://facebook.com/sohamdata" target="_blank">
+                <a href="https://facebook.com/sohamdata" target="_blank" rel="noopener noreferrer">
                     <img src={faceLogo} />
                 </a>
-                <a href="https://instagram.com/sohamdata" target="_blank">
+                <a href="https://instagram.com/sohamdata" target="_blank" rel="noopener noreferrer">
                     <img src={instaLogo} />
                 </a>
             </div>
